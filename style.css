@@ -54,12 +54,14 @@ nav{
 
 .slider{
     background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJyaWNrJTIwd2FsbHxlbnwwfHwwfHx8MA%3D%3D");
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    overflow: hidden; 
 }   
 
 .sliderWrapper{
     display: flex;
     width: 500vw;
+    transition: all 1s ease-in-out;
 }
 
 .sliderItem{
@@ -156,4 +158,107 @@ nav{
 }
 .sliderItem:nth-child(5) .sliderPrice{
     color: cornsilk;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.featureImg{
+    width: 50px;
+    height: 50px;
+}
+
+.featureTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.featureDesc{
+    color: gray;
+    width: 50%;
+    height: 100px;
+}
+
+.product{
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+}
+
+.productImg{
+    width: 50%;
+}
+
+.productDetails{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 40%;
+    padding: 50px;
+    
+}
+
+.productTitle{
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.productDesc{
+    font-style: 24px;
+    color: gray;
+}
+
+.sizes{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.colors{
+    margin-bottom: 20px;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: black; 
+    margin-right: 10px;
+    cursor: pointer; 
+}
+
+.color:last-child{
+    background-color: darkblue;
+}
+
+.size{
+    padding: 5px 20px;
+    border: 1px solid black;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+} 
+
+.productButton{
+    float: right;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.productButton:hover{
+    background-color: white;
+    color: black;
 }
