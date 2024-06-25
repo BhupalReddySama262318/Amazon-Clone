@@ -465,9 +465,7 @@ footer{
 
    .navtop{
         display: flex;
-        flex-direction: row;
-        padding: 20px;
-   }
+    }
     
     .search{
         display: none;
