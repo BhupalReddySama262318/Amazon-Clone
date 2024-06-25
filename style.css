@@ -463,7 +463,10 @@ footer{
         background-color: black;
     }   
 
-   
+   .navtop{
+        display: flex;
+        flex-direction: row;flex-wrap: wrap;
+   }
     
     .search{
         display: none;
