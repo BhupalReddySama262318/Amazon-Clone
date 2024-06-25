@@ -463,9 +463,10 @@ footer{
         background-color: black;
     }   
 
-   .navtop{
+    
+   /* .navtop{
         display: flex;
-    }
+    } */
     
     .search{
         display: none;
