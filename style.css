@@ -462,18 +462,13 @@ footer{
     nav{
         background-color: black;
     }   
-
-    
-   /* .navtop{
-        display: flex;
-    } */
     
     .search{
         display: none;
     }
 
     .navItem{
-        margin: 25px;
+        margin: 20px;
     }
 
     .navBottom{
