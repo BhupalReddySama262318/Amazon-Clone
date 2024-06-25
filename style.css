@@ -462,14 +462,20 @@ footer{
     nav{
         background-color: black;
     }   
+
+   
     
     .search{
         display: none;
     }
 
-.navBottom{
+    .navItem{
+        margin: 25px;
+    }
+
+    .navBottom{
     flex-wrap: wrap;
-}
+    }
 
     .menuItem{
         margin:20px;
